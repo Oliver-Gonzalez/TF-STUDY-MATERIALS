@@ -420,7 +420,7 @@
             const summary = document.getElementById('results-summary');
             summary.style.display = 'block';
             document.getElementById('finalScore').innerText = Math.round((correctCount / currentActiveData.length) * 100) + "%";
-            document.getElementById('scoreDetail').innerText = `Completed: ${correctCount} / ${currentActiveData.length}. Review answers below.`;
+            document.getElementById('scoreDetail').innerText = `Correct: ${correctCount} / ${currentActiveData.length}.`;
             
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
